@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  padding: 0.4rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: center;
+  background-color:#fff;
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.263);
+}
+#utils .container h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+
+.poriotnlevels {
+  padding-top:2rem ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+#main-header {
+  padding: 2rem 0;
+}
+
+#main-header .container ul {
+  gap: 2rem;
+  color: black;
+}
+
+#main-header .container ul li:hover {
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.align-center {
+  align-items: center;
+}
+
+section {
+  padding-top:3rem ;
+}
+
+.portion {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.portion h1 {
+  font-size: 45px;
+}
+
+.portion2 img {
+  width: 700px;
+  height: 500px;
+}
+
+
+
+
